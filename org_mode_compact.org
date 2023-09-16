@@ -1,0 +1,27 @@
+#+author Daisuke Nakahara
+
+[[https://orgmode.org/guide/index.html][Org Mode Compact Guide]] を参考にOrg Modeの使い方を学ぶ
+
+
+* Document Structure
+** Visiblity Cycling
+- TAB Subtree cycling
+  下流の見出しなどが展開・省略される
+- S-TAB or C-u TAB Global cycling
+  全体を対象に展開・省略される
+- C-u C-u C-u TAB
+  すべてを展開
+** Motion
+- C-c C-n 次にある見出しに移動
+- C-c C-p 前にある見出しに移動
+- C-c C-f 同じレベルの次の見出しに移動
+- C-c C-b 同じレベルの前の見出しに移動
+- C-c C-u 一段階上の見出しに移動
+** Structure Editing
+- M-RET 現在と同じレベルの新しい見出しを挿入する
+- M-S-RET 現在の見出しと同じレベルの新しいTODOエントリを挿入する
+- TAB まだテキストのない新しいエントリでは、TABを使用して適切なレベルを循環する
+- M-LEFT M-RIGHT 現在の見出しを1レベルずつ昇格または降格する
+- M-UP M-DOWN サブツリーを上下に移動する
+- C-c C-w エントリまたはリージョンを別の場所に再ファイルする
+- C-x n s C-x n w バッファを現在のサブツリーに狭め、再び広げる
