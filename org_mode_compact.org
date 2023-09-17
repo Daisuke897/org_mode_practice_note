@@ -25,3 +25,17 @@
 - M-UP M-DOWN サブツリーを上下に移動する
 - C-c C-w エントリまたはリージョンを別の場所に再ファイルする
 - C-x n s C-x n w バッファを現在のサブツリーに狭め、再び広げる
+** Sparse Trees
+- C-c / スパースツリー作成コマンドを選択するための追加のキー入力
+- C-c / r 正規表記の入力を求め、全ての一致のスパースツリーを表示
+** Plain Lists
+- TAB 折りたたむ
+*** Unordered list items
+- '-'
+- '+'
+- '*'
+*** Ordered list items
+1. '1.'
+2. '1).'
+*** Description list items
+- Description list :: '::'
