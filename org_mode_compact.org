@@ -46,3 +46,24 @@
 2. '1).'
 *** Description list items
 - Description list :: '::'
+
+* Tables
+| Name  | Phone | Age |
+|-------+-------+-----|
+| Peter |  1234 |  17 |
+| Anna  |  4321 |  25 |
+
+|   |   |   |   |   |
+|---+---+---+---+---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+** Creation and conversion
+- C-c | アクティブな領域をテーブルに変換する。
+  アクティブなリージョンがない場合は、空の組織テーブルを作成する。
+** Re-aligning and field motion
+- C-c C-c ポイントを移動せずにテーブルを再調整する
+- TAB テーブルを再配置して、次のフィールドに移動する。必要に応じて新しい行を作成する。
+- S-TAB 位置を再調整し、前のフィールドに移動する
+- S-UP S-DOWN S-LEFT S-RIGHT 隣接するセルと入れ替える
