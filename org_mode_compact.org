@@ -95,3 +95,13 @@
 + C-c C-l リンクを挿入する すでに存在する場合は、リンクを編集する
 + C-c C-o ポイントのリンクを開く
 + C-c & 記録した位置にジャンプして戻る
+
+* Todo Items
+** Basic ToDo Functionality
+「TODO」で始まる見出しはTODOになる
+- C-c C-t TODOの状態を循環させる
+- S-RIGHT S-LEFT 同様にTODOの状態を循環させる
+- C-c / t TODOアイテムをsparse treeで表示する
+  全体が折りたたまれるが、すべてのTODO項目とその上の見出し階層を表示する
+- M-x org-agenda t グローバルTODOリストを表示する
+- S-M-RET 新しいTODOエントリーを現在のエントリーの下に挿入する
